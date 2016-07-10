@@ -19,7 +19,16 @@ namespace PruebaSuma
 
         private void btnPulsar_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("Chido!!");
+            int num1 = Convert.ToInt32(txtN1.Text);
+            int num2 = Convert.ToInt32(txtN2.Text);
+
+            int suma = num1 + num2;
+            txtResultado.Text = suma.ToString();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
