@@ -38,7 +38,7 @@
             // 
             // btnPulsar
             // 
-            this.btnPulsar.Location = new System.Drawing.Point(102, 115);
+            this.btnPulsar.Location = new System.Drawing.Point(102, 105);
             this.btnPulsar.Name = "btnPulsar";
             this.btnPulsar.Size = new System.Drawing.Size(75, 23);
             this.btnPulsar.TabIndex = 0;

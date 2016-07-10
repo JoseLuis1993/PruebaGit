@@ -19,16 +19,21 @@ namespace PruebaSuma
 
         private void btnPulsar_Click(object sender, EventArgs e)
         {
-            int num1 = Convert.ToInt32(txtN1.Text);
-            int num2 = Convert.ToInt32(txtN2.Text);
+            try
+            {
+                int num1 = Convert.ToInt32(txtN1.Text);
+                int num2 = Convert.ToInt32(txtN2.Text);
 
-            int suma = num1 + num2;
-            txtResultado.Text = suma.ToString();
+                int suma = num1 + num2;
+                txtResultado.Text = suma.ToString();
+            }
+            catch (FormatException err)
+            {
+                MessageBox.Show("Lo siento ocurrió un error(s) "+err.Message+"!!");
+            }
         }
-
         private void label2_Click(object sender, EventArgs e)
         {
-
         }
     }
 }
