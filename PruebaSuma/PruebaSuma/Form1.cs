@@ -21,8 +21,8 @@ namespace PruebaSuma
         {
             try
             {
-                int num1 = Convert.ToInt32(txtN1.Text);
-                int num2 = Convert.ToInt32(txtN2.Text);
+                int num1 = Convert.ToInt16(txtN1.Text);
+                int num2 = Convert.ToInt16(txtN2.Text);
 
                 int suma = num1 + num2;
                 txtResultado.Text = suma.ToString();
