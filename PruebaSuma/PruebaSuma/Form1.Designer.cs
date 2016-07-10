@@ -42,7 +42,7 @@
             this.btnPulsar.Name = "btnPulsar";
             this.btnPulsar.Size = new System.Drawing.Size(75, 23);
             this.btnPulsar.TabIndex = 0;
-            this.btnPulsar.Text = "Pulsar";
+            this.btnPulsar.Text = "Sumar";
             this.btnPulsar.UseVisualStyleBackColor = true;
             this.btnPulsar.Click += new System.EventHandler(this.btnPulsar_Click);
             // 

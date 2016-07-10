@@ -29,7 +29,7 @@ namespace PruebaSuma
             }
             catch (FormatException err)
             {
-                MessageBox.Show("Lo siento ocurrió un error(s) "+err.Message+"!!");
+                MessageBox.Show("Lo siento ocurrió un error(s) : "+err.Message+"!!");
             }
         }
         private void label2_Click(object sender, EventArgs e)
